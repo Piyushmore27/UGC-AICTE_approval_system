@@ -63,7 +63,7 @@ function generateSuggestions(data) {
 }
 
 function hello(){
-  console.log("Hello");
+  console.log("Hello World");
 }
 // Predict + Save
 app.post('/predict', upload.single('file'), async (req, res) => {
